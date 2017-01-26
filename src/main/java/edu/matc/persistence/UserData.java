@@ -45,7 +45,6 @@ public class UserData {
         return users;
     }
 
-    // Add a method or methods to return a single user based on search criteria
     public List<User> getUsersByLastName(String lastName) {
 
         List<User> foundUsers = new ArrayList<User>();
@@ -97,8 +96,6 @@ public class UserData {
         user.setFirstName(results.getString("first_name"));
         user.setDateOfBirth(results.getString("date_of_birth"));
         user.setUserid(results.getString("id"));
-
-        // map the remaining fields
 
         return user;
     }

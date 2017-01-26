@@ -1,7 +1,5 @@
 package edu.matc.entity;
 
-// Add instance variable for the date of birth
-// Add a calculation for the user's age. Age should not be stored, it should be calculated only.
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
