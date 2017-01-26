@@ -7,6 +7,8 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+// TODO: Refactor duplicate code
+
 /**
  * Access users in the user table.
  *
